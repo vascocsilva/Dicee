@@ -28,6 +28,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         rollDices()
+        
+//        let square = UIView(frame: CGRect(x: self.view.frame.width/2 - square., y: self.view.frame.height/2 - 25, width: 50, height: 50))
+//        square.backgroundColor = UIColor.red
+//        self.view.addSubview(square)
     }
 
     override func didReceiveMemoryWarning() {
